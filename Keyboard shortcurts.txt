@@ -1,0 +1,46 @@
+Up/Down Arrows: The up and down arrows on your keyboard move through your last used commands. 
+So, if you wanted to run the second to last command you ran, just hit the up arrow twice and hit Enter. 
+You can also edit the command before you run it.
+
+Ctrl+Left and Ctrl+Right: Hitting Ctrl and the left or right arrow keys jumps between arguments in your command. 
+So, if you had a typo in the middle of the command, you could jump to it quickly with Ctrl and a few taps of the left arrow key. 
+Note that on Mac OS X and Windows, this shortcut is Esc+B and Esc+F instead. This is pretty awkward, but OS X users can change 
+it from the Terminal's preferences if they so choose.
+
+Home and End: The Home and End buttons on your keyboard move your cursor to the beginning and the end of the currently typed 
+command, respectively. This is useful if you've, say, typed in a command but realize that there's a typo in the first word. 
+Instead of holding down the left arrow key, just hit home and correct it. You can also do the same thing with Ctrl+A and Ctrl+E, 
+respectively (on Mac OS X, Ctrl+A and Ctrl+E are the only way to do this).
+
+Ctrl+U: This clears the entire line so you can type in a completely new command.
+
+Ctrl+K: This deletes the line from the position of the cursor to the end of the line.
+
+Ctrl+W: This deletes the word before the cursor only.
+
+Ctrl+R: This lets you search your command history for something specific. For example, if you wanted to search for the recent commands 
+that included nano, you would hit Ctrl+R and type nano. It would show your most recent command, and you could use the up and down arrows 
+to cycle through your history of commands using nano in them.
+
+Tab: One of everyone's favorite shortcuts employs Tab to autocomplete a line of text. So, say you wanted to type cd ~/Dropbox/, you 
+could just type cd ~/Dr, hit Tab to autocomplete opbox, and continue on with your day.
+
+cd ../Play: This also works if you're typing out longer paths. Say you're in ~/Documents/Work and you wanted to be in ~/Documents/Play.
+
+cd -: Another good shortcut is the dash (-). This will move you back to your last working directory.
+
+sudo !!: One of the most useful shortcuts is using !! to represent the last command you ran. This is useful in a ton of situations. 
+For example, if you run a command that needs root privileges but forget to add sudo to the beginning, there's no need to retype 
+the command.
+
+!cat: If the command you want to run is a bit further back in your history, you can use the bang in conjunction with the original 
+string to find it.
+
+!cat:p: If you just want to see what the last cat command was, you can instead run. This will print that command and add it to 
+the end of your history. If you decide you then want to run it, you can just type !! and hit Enter.
+This will print that command and add it to the end of your history. If you decide you then want to run it, you can just type !! 
+and hit Enter.
+
+
+
+
